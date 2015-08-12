@@ -42,13 +42,13 @@ class BuddyStreamFlickrImport
                     $items = null;
 
                     //get the user id
-                    $url = 'https://api.flickr.com/services/rest/?method=flickr.urls.lookupuser&api_key=' . get_site_option("bs_flickr_api_key") . '&url=' . urlencode('http://www.flickr.com/photos/' . get_user_meta($user_meta->user_id, 'bs_flickr_username', 1));
+                    $url = 'http://api.flickr.com/services/rest/?method=flickr.urls.lookupuser&api_key=' . get_site_option("bs_flickr_api_key") . '&url=' . urlencode('http://www.flickr.com/photos/' . get_user_meta($user_meta->user_id, 'bs_flickr_username', 1));
                     $buddystreamCurl = new BuddyStreamCurl();
                     $curlContent = $buddystreamCurl->getContentFromUrl($url);
                     $response = simplexml_load_string($curlContent);
 
                     //get the photos
-                    $photosUrl = 'https://api.flickr.com/services/rest/?method=flickr.people.getPublicPhotos&api_key=' . get_site_option("bs_flickr_api_key") . '&user_id=' . $response->user['id'] . "&extras=date_upload,url_m,url_t,description";
+                    $photosUrl = 'http://api.flickr.com/services/rest/?method=flickr.people.getPublicPhotos&api_key=' . get_site_option("bs_flickr_api_key") . '&user_id=' . $response->user['id'] . "&extras=date_upload,url_m,url_t,description";
                     $curlContent = $buddystreamCurl->getContentFromUrl($photosUrl);
                     $items = simplexml_load_string($curlContent);
 

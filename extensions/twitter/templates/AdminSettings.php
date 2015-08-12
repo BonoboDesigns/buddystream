@@ -25,6 +25,10 @@
                 update_site_option('buddystream_twitter_setup', true);
             }
 
+            foreach ($arraySwitches as $switch) {
+                update_site_option($switch, trim(strip_tags(strtolower($_POST[$switch]))));
+            }
+
             $message = __('Settings saved.', 'buddystream_twitter');
         }
         ?>

@@ -70,12 +70,6 @@ if ($_POST) {
 <?php include "TemplateHeader.php"; ?>
 
 <br><br>
-<?php
-buddystreamCheckLicense(get_site_option('buddystream_license_key'));
-
-?>
-
-<br><br>
 <div id="buddystream" class="container">
 
     <div class="span9">
