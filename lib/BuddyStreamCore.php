@@ -96,15 +96,13 @@ function buddystreamCreateActivity($params){
             $activity->component         = $params['extension'];
             $activity->type              = $params['extension'];
             $activity->content           = $content;
-            $activity->item_id           = $params['item_id'];
             $activity->secondary_item_id = '';
             $activity->date_recorded     = $params['raw_date'];
             $activity->hide_sitewide     = 0;
             $activity->action .= '<a href="' . bp_core_get_user_domain($params['user_id']) .'" title="' . bp_core_get_username($params['user_id']).'">'.bp_core_get_user_displayname($params['user_id']).'</a>';
-            $activity->action .= ' ' . __('posted&nbsp;a', 'buddystream_lang').' ';
+            $activity->action .= ' ' . __('posted&nbsp;a', 'buddystream_' . $extension['name']).' ';
             $activity->action .= '<a href="' . $params['actionlink'] . '" target="_blank" rel="external"> '.__($params['type'], 'buddystream_'.$extension['name']);
             $activity->action .= '</a>: ';
-            $activity->primary_link        = $params['actionlink'];
 
             if ( ! preg_match("/" . $params['item_id'] . "/i", get_user_meta($params['user_id'], 'buddystream_blacklist_ids', 1))) {
 
@@ -543,14 +541,3 @@ function buddystreamFilterOutPrivate( $a, $activities ) {
 }
 
 add_action('bp_has_activities','buddystreamFilterOutPrivate', 10, 2 );
-
-//TWEET ID
-function buddystreamGetTweetId($num) {
-    $tableau = explode(",", number_format($num));
-    $nb = count($tableau);
-    for ($j=0; $j < $nb; $j++)
-    {
-        $resultat=$resultat.$tableau[$j];
-    }
-    return $resultat;
-}

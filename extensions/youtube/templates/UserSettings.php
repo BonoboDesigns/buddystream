@@ -3,13 +3,11 @@
 
 if (isset($_GET['reset'])) {
     delete_user_meta($bp->loggedin_user->id, 'bs_youtube_username');
-    //for other plugins
-    do_action('buddystream_youtube_deleted');
 }
 
 if ($_POST) {
     update_user_meta($bp->loggedin_user->id, 'bs_youtube_username', $_POST['bs_youtube_username']);
-    $message =  __('Settings saved', 'buddystream_youtube');
+    $message =  __('Settings saved', 'buddystream_lang');
 }
 
 $bs_youtube_username = get_user_meta($bp->loggedin_user->id, 'bs_youtube_username', 1);
@@ -22,7 +20,7 @@ if ($bs_youtube_username) {
       action="<?php echo  $bp->loggedin_user->domain . BP_SETTINGS_SLUG; ?>/buddystream-networks/?network=youtube"
       method="post">
 
-    <h3><?php echo __('Youtube Settings', 'buddystream_youtube')?></h3>
+    <h3><?php echo __('Youtube Settings', 'buddystream_lang')?></h3>
 
     <?php if ($message): ?>
         <div class="alert alert-success"><?php echo $message; ?></div>
@@ -31,7 +29,7 @@ if ($bs_youtube_username) {
     <table class="table table-striped" cellspacing="0">
         <thead>
         <tr>
-            <th> <?php echo __('Youtube username', 'buddystream_youtube');?></th>
+            <th> <?php echo __('Youtube username', 'buddystream_lang');?></th>
         </tr>
         </thead>
         <tbody>
@@ -43,10 +41,10 @@ if ($bs_youtube_username) {
         </tbody>
     </table>
 
-    <input type="submit" class="buddystream_save_button" value="<?php echo __('Save settings', 'buddystream_youtube');?>">
+    <input type="submit" class="buddystream_save_button" value="<?php echo __('Save settings', 'buddystream_lang');?>">
 
     <?php if ($bs_youtube_username != ""): ?>
         <a href="?network=youtube&reset=true"
-           class="buddystream_reset_button"><?php echo __('Remove Youtube synchronization.', 'buddystream_youtube');?></a>
+           class="buddystream_reset_button"><?php echo __('Remove Youtube synchronization.', 'buddystream_facebook');?></a>
     <?php endif; ?>
 </form>

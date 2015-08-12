@@ -1,0 +1,266 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyStream\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 23:54+0100\n"
+"PO-Revision-Date: 2013-02-28 23:54+0100\n"
+"Last-Translator: Peter Hofman <info@buddystream.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: /Users/peterhofman/projects/buddystream.net/wp-"
+"content/plugins/buddystream-dev/extensions/googleplus\n"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/import.php:82
+msgid "visit link"
+msgstr "visit link"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminFilters.php:23
+msgid "Filters saved."
+msgstr "Filters saved."
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminFilters.php:28
+msgid "googleplus filters description"
+msgstr ""
+"Using filters will prevent overcrowded and \"messy\" activity streams. <br/"
+">Example: You may have a network that focuses on soccer. To keep things "
+"\"clean\" you will only want items that pertain to soccer to be imported. By "
+"adding the word \"soccer\" to the Filter below, only items with the word "
+"\"soccer\" will be imported and shown in the users items on your site.<br/"
+"><br/>By using commas as a delimiter, you may set-up multiple filters (No "
+"Filter = All items).In addition, the \"Explicit Words\" filter, will block "
+"any item that contains them regardless of the other filter.<br/>Note: "
+"Keywords listed in the \"Good\" Filter must be present in the update itself "
+"to be included in the site import. Likewise, keywords listed in the "
+"\"Explicit Filter\" will cause that particular update NOT to be imported.<br/"
+">"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminFilters.php:40
+msgid "Google+ filters (optional)"
+msgstr "Google+ filters (optional)"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminFilters.php:44
+msgid "Filters (comma seperated)"
+msgstr "Filters (comma seperated)"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminFilters.php:50
+msgid "Explicit words (comma seperated)"
+msgstr "Explicit words (comma seperated)"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminFilters.php:57
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminSettings.php:120
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminSettings.php:35
+msgid "Settings saved."
+msgstr "Settings saved."
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminSettings.php:40
+msgid "googleplus settings description"
+msgstr ""
+"For BuddyStream to work with Google+ you need to get an <strong>\"Client ID"
+"\"</strong> and <strong>\"Client secret\" </strong>from Google.<br/><br/>1. "
+"Go to the Google API console: ,<a href=\"https://code.google.com/apis/"
+"console/\" target=\"blanc\"><strong>https://code.google.com/apis/console/</"
+"strong></a><br/>2. Select <strong>\"Create\"</strong> in the dropdown menu "
+"in the top left of the page, and create a project.<br/>3. On the <strong>"
+"\"Services\"</strong> page click the status button to <strong>\"on\"</"
+"strong> for the <strong>\"Google+ API\"</strong>.<br/>4. Go to the <strong>"
+"\"API Access\"</strong> page and click on <strong>\"Create a OAuth 2.0 "
+"clientID...\"</strong><br/>5. Set the <strong>\"Application typ\"</strong> "
+"on <strong>\"Web application\"</strong>.<br/>6. Click on the <strong>\"(more "
+"options)\"</strong> link and fill in:  #DOMAIN in the <strong>\"Authorized "
+"Redirect URIs\"</strong> box.<br/>7. Now press <strong>\"Create client\"</"
+"strong><br/>8. Copy the <strong>\"Client ID\"</strong> and <strong>\"Client "
+"secret\"</strong> into the fields below.<br/>"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminSettings.php:53
+msgid "Google+ API"
+msgstr "Google+ API"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminSettings.php:61
+msgid "Consumer key:"
+msgstr "Client ID:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminSettings.php:68
+msgid "Consumer secret key:"
+msgstr "Client secret:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminSettings.php:84
+msgid "User options"
+msgstr "User options"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminSettings.php:92
+msgid "Show Google+ album on user profile page?"
+msgstr "Show Google+ album on user profile page?"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminSettings.php:98
+msgid "Allow users to sync Google+ to you website?"
+msgstr "Allow users to sync Google+ to you website?"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminSettings.php:105
+msgid ""
+"Maximum items to be imported per user, per day (empty = unlimited items "
+"import):"
+msgstr ""
+"Maximum items to be imported per user, per day (empty = unlimited items "
+"import):"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminStatitics.php:31
+msgid "googleplus statitics description"
+msgstr ""
+"Below you see a table with some nice to know statistics, i may help you to "
+"monitor you members social interaction."
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminStatitics.php:36
+msgid "Statistics"
+msgstr "Statistics"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminStatitics.php:54
+msgid "Amount of users:"
+msgstr "Amount of users:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminStatitics.php:58
+msgid "Amount of user Google+ intergration:"
+msgstr "Amount of user Google+ intergration:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminStatitics.php:62
+msgid "Percentage of users Google+ using intergration:"
+msgstr "Percentage of users Google+ using intergration:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminStatitics.php:66
+msgid "Amount of activity updates:"
+msgstr "Amount of activity updates:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminStatitics.php:70
+msgid "Amount of updates:"
+msgstr "Amount of updates:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminStatitics.php:74
+msgid "Percentage of items in activity updates:"
+msgstr "Percentage of items in activity updates:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminStatitics.php:78
+msgid "Average items import per day:"
+msgstr "Average items import per day:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminStatitics.php:82
+msgid "Average items import per week:"
+msgstr "Average items import per week:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminStatitics.php:86
+msgid "Average items import per month:"
+msgstr "Average items import per month:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/AdminStatitics.php:90
+msgid "Average items import per year:"
+msgstr "Average items import per year:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/UserSettings.php:47
+msgid "Settings saved"
+msgstr "Settings saved"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/UserSettings.php:59
+msgid "Google+ Settings"
+msgstr "Google+ Settings"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/UserSettings.php:72
+msgid "Synchronize items to my activity stream?"
+msgstr "Synchronize items to my activity stream?"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/UserSettings.php:82
+msgid "Yes"
+msgstr "Yes"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/UserSettings.php:88
+msgid "No"
+msgstr "No"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/UserSettings.php:97
+msgid "Save settings"
+msgstr "Save settings"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/UserSettings.php:101
+msgid "Remove Google+ synchronization."
+msgstr "Remove Google+ synchronization."
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/UserSettings.php:109
+msgid ""
+"Google+ setup</h3>\n"
+"                 You may setup you Google+ intergration over here.<br/>\n"
+"                 Before you can begin using Google+ with this site you must "
+"authorize on Google+ by clicking the link below."
+msgstr ""
+"Google+ setup</h3>\n"
+"                 You may setup you Google+ intergration over here.<br/>\n"
+"                 Before you can begin using Google+ with this site you must "
+"authorize on Google+ by clicking the link below."
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/UserSettings.php:134
+msgid "Click here to start authorization"
+msgstr "Click here to start authorization"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/googleplus/templates/UserSettings.php:136
+msgid ""
+"There is a problem with the authentication service at this moment please "
+"come back in a while."
+msgstr ""
+"There is a problem with the authentication service at this moment please "
+"come back in a while."
+
+#~ msgid "Hide items on the sidewide activity stream?"
+#~ msgstr "Hide items on the sidewide activity stream?"
+
+#~ msgid "Extra options"
+#~ msgstr "Extra options"
+
+#~ msgid "Show Google+ share button?"
+#~ msgstr "Show Google+ share button?"
+
+#~ msgid ""
+#~ "\"User integration has been reset. Note: User will have to reconnect "
+#~ "their integration if desired.\""
+#~ msgstr ""
+#~ "\"User integration has been reset. Note: User will have to reconnect "
+#~ "their integration if desired.\""
+
+#~ msgid "Are you sure ?"
+#~ msgstr "Are you sure ?"
+
+#~ msgid "googleplus users description"
+#~ msgstr ""
+#~ "Below is a list of all users whom are using Google+. You may reset there "
+#~ "Google+ settings here. Note: When you reset a user they need to re-"
+#~ "authenticate with Google+, already imported items WILL NOT be deleted!"
+
+#~ msgid "Username"
+#~ msgstr "Username"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Items imported"
+#~ msgstr "Items imported"
+
+#~ msgid "Reset user"
+#~ msgstr "Reset user"
+
+#~ msgid "Filters"
+#~ msgstr "Filters"
+
+#~ msgid "user settings"
+#~ msgstr ""
+#~ "You may setup you twitter intergration over here.Before you can begin "
+#~ "using Twitter with this site you must authorize on Twitter by clicking "
+#~ "the link below."
+
+#~ msgid "Good Filter (separate words with commas)"
+#~ msgstr "Good Filter (separate words with commas)"
+
+#~ msgid "Bad Filter (separate words with commas)"
+#~ msgstr "Bad Filter (separate words with commas)"

@@ -1,0 +1,145 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyStream\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 23:57+0100\n"
+"PO-Revision-Date: 2013-02-28 23:57+0100\n"
+"Last-Translator: Peter Hofman <info@buddystream.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: /Users/peterhofman/projects/buddystream.net/wp-"
+"content/plugins/buddystream-dev/extensions/vimeo\n"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/vimeo/templates/AdminSettings.php:31
+msgid "Settings saved."
+msgstr "Settings saved."
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/vimeo/templates/AdminSettings.php:37
+msgid "vimeo settings description"
+msgstr ""
+"Vimeo works out of the box, the users only have to fill in there vimeo "
+"username on the settings page."
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/vimeo/templates/AdminSettings.php:50
+msgid "User options"
+msgstr "User options"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/vimeo/templates/AdminSettings.php:57
+msgid "Show Vimeo album on user profile page?"
+msgstr "Show Vimeo album on user profile page?"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/vimeo/templates/AdminSettings.php:63
+msgid ""
+"Maximum number of videos to import per user, per day (empty - unlimited):"
+msgstr ""
+"Maximum number of videos to import per user, per day (empty - unlimited):"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/vimeo/templates/AdminSettings.php:70
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/vimeo/templates/AdminStatitics.php:29
+msgid "vimeo statitics description"
+msgstr ""
+"Below you see a table with some nice to know statistics, i may help you to "
+"monitor you members social interaction."
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/vimeo/templates/AdminStatitics.php:36
+msgid "Statistics"
+msgstr "Statistics"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/vimeo/templates/AdminStatitics.php:55
+msgid "Amount of users:"
+msgstr "Amount of users:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/vimeo/templates/AdminStatitics.php:59
+msgid "Amount of user using Vimeo:"
+msgstr "Amount of user using Vimeo:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/vimeo/templates/AdminStatitics.php:63
+msgid "Percentage of users using Vimeo:"
+msgstr "Percentage of users using Vimeo:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/vimeo/templates/AdminStatitics.php:67
+msgid "Amount of activity updates:"
+msgstr "Amount of activity updates:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/vimeo/templates/AdminStatitics.php:71
+msgid "Amount of Vimeo videos:"
+msgstr "Amount of Vimeo videos:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/vimeo/templates/AdminStatitics.php:75
+msgid "Percentage of Vimeo videos:"
+msgstr "Percentage of Vimeo videos:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/vimeo/templates/AdminStatitics.php:79
+msgid "Average number of Vimeo videos imported per day:"
+msgstr "Average number of Vimeo videos imported per day:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/vimeo/templates/AdminStatitics.php:83
+msgid "Average number of Vimeo videos imported per week:"
+msgstr "Average number of Vimeo videos imported per week:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/vimeo/templates/AdminStatitics.php:87
+msgid "Average number of Vimeo videos imported per month:"
+msgstr "Average number of Vimeo videos imported per month:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/vimeo/templates/AdminStatitics.php:91
+msgid "Average number of Vimeo videos imported per year:"
+msgstr "Average number of Vimeo videos imported per year:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/vimeo/templates/UserSettings.php:9
+msgid "Settings saved"
+msgstr "Settings saved"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/vimeo/templates/UserSettings.php:22
+msgid "Vimeo Settings"
+msgstr "Vimeo Settings"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/vimeo/templates/UserSettings.php:31
+msgid "Vimeo username"
+msgstr "Vimeo username"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/vimeo/templates/UserSettings.php:43
+msgid "Save settings"
+msgstr "Save settings"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/vimeo/templates/UserSettings.php:47
+msgid "Remove Vimeo synchronization."
+msgstr "Remove Vimeo synchronization."
+
+#~ msgid "Hide Vimeo videos on the sitewide activity stream?"
+#~ msgstr "Hide Vimeo videos on the sitewide activity stream?"
+
+#~ msgid ""
+#~ "\"User integration has been reset. Note: User will have to reconnect "
+#~ "their integration if desired.\""
+#~ msgstr ""
+#~ "\"User integration has been reset. Note: User will have to reconnect "
+#~ "their integration if desired.\""
+
+#~ msgid "Are you sure ?"
+#~ msgstr "Are you sure ?"
+
+#~ msgid "vimeo users description"
+#~ msgstr ""
+#~ "Below is a list of all users whom are using Vimeo. You may reset there "
+#~ "Vimeo settings here. Note: When you reset a user they need to re-"
+#~ "authenticate with Vimeo, already imported items WILL NOT be deleted!"
+
+#~ msgid "Username"
+#~ msgstr "Username"
+
+#~ msgid "Vimeo"
+#~ msgstr "Vimeo"
+
+#~ msgid "Video history"
+#~ msgstr "Video history"
+
+#~ msgid "Reset user"
+#~ msgstr "Reset user"

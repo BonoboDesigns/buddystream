@@ -1,0 +1,187 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyStream Rss\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 23:56+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Peter Hofman <info@buddystream.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: /Users/peterhofman/projects/buddystream.net/wp-"
+"content/plugins/buddystream-dev/extensions/rss\n"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/rss/templates/AdminFilters.php:21
+msgid "Filters saved."
+msgstr "Filters saved."
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/rss/templates/AdminFilters.php:27
+msgid "rss filters description"
+msgstr ""
+"Using Rss filters will prevent overcrowded and \"messy\" activity streams."
+"<br>Example: You may have a network what focuses on soccer. <br>To keep "
+"things \"clean\" you will only want items that pertain to soccer to be "
+"imported.<br>By adding the word \"soccer\" to the filter below, only items "
+"with the word \"soccer\" will be imported and shown in the users activity "
+"stream.<br><br>By using commas as a delimiter  you may set-up multiple "
+"filters (No filter = all Rss items.)<br>In addition, the \"Explicit words\" "
+"filter, will block any item that contains them regardless of the other "
+"filter.<br><b>Note:</b> Keywords listed in the \"Good\" Filter must be "
+"present in the update itself to be included in the site import. Likewise, "
+"keywords listed in the \"Explicit Filter\" will cause that particular update "
+"NOT to be imported."
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/rss/templates/AdminFilters.php:42
+msgid "Rss filters (optional)"
+msgstr "Rss filters (optional)"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/rss/templates/AdminFilters.php:49
+msgid "Filters (comma seperated)"
+msgstr "Filters (comma seperated)"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/rss/templates/AdminFilters.php:57
+msgid "Explicit words filters (comma seperated)"
+msgstr "Explicit words filters (comma seperated)"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/rss/templates/AdminFilters.php:66
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/rss/templates/AdminSettings.php:62
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/rss/templates/AdminSettings.php:27
+msgid "Settings saved."
+msgstr "Settings saved."
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/rss/templates/AdminSettings.php:33
+msgid "rss settings description"
+msgstr "Below some general settings."
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/rss/templates/AdminSettings.php:47
+msgid "User options"
+msgstr "User options"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/rss/templates/AdminSettings.php:54
+msgid ""
+"Maximum number of items to import per user, per day (empty - unlimited):"
+msgstr ""
+"Maximum number of items to import per user, per day (empty - unlimited):"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/rss/templates/AdminStatitics.php:18
+msgid "rss statitics description"
+msgstr ""
+"Below you see a table with some nice to know statistics, i may help you to "
+"monitor you members social interaction."
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/rss/templates/AdminStatitics.php:39
+msgid "Statistics"
+msgstr "Statistics"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/rss/templates/AdminStatitics.php:60
+msgid "Amount of users:"
+msgstr "Amount of users:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/rss/templates/AdminStatitics.php:64
+msgid "Amount of user using rss:"
+msgstr "Amount of user using rss:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/rss/templates/AdminStatitics.php:68
+msgid "Percentage of users using rss:"
+msgstr "Percentage of users using rss:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/rss/templates/AdminStatitics.php:72
+msgid "Amount of activity updates:"
+msgstr "Amount of activity updates:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/rss/templates/AdminStatitics.php:76
+msgid "Amount of rss items:"
+msgstr "Amount of rss items:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/rss/templates/AdminStatitics.php:80
+msgid "Percentage of rss items:"
+msgstr "Percentage of rss items:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/rss/templates/AdminStatitics.php:84
+msgid "Average number of rss items imported per day:"
+msgstr "Average number of rss items imported per day:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/rss/templates/AdminStatitics.php:88
+msgid "Average number of rss items imported per week:"
+msgstr "Average number of rss items imported per week:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/rss/templates/AdminStatitics.php:92
+msgid "Average number of rss items imported per month:"
+msgstr "Average number of rss items imported per month:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/rss/templates/AdminStatitics.php:96
+msgid "Average number of rss items imported per year:"
+msgstr "Average number of rss items imported per year:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/rss/templates/UserSettings.php:5
+msgid "Settings saved"
+msgstr "Settings saved"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/rss/templates/UserSettings.php:18
+msgid "Rss Settings"
+msgstr "Rss Settings"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/rss/templates/UserSettings.php:27
+msgid "Feeds (new line per feed)"
+msgstr "Feeds (new line per feed)"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/rss/templates/UserSettings.php:39
+msgid "Save settings"
+msgstr "Save settings"
+
+#~ msgid "Rss"
+#~ msgstr "Rss"
+
+#~ msgid ""
+#~ "\"User integration has been reset. Note: User will have to reconnect "
+#~ "their integration if desired.\""
+#~ msgstr ""
+#~ "\"User integration has been reset. Note: User will have to reconnect "
+#~ "their integration if desired.\""
+
+#~ msgid "Are you sure ?"
+#~ msgstr "Are you sure ?"
+
+#~ msgid "rss users description"
+#~ msgstr ""
+#~ "Below is a list of users whom are using Rss.<br> You may reset their Rss "
+#~ "settings here. <br><b>Note:</b> When you reset a user, they will need "
+#~ "fill in their feeds again Any Rss items that have already been imported "
+#~ "<b>WILL NOT</b> be deleted."
+
+#~ msgid "Username"
+#~ msgstr "Username"
+
+#~ msgid "Item history"
+#~ msgstr "Item history"
+
+#~ msgid "Reset user"
+#~ msgstr "Reset user"
+
+#~ msgid "Filters"
+#~ msgstr "Filters"
+
+#~ msgid "rss user filters description"
+#~ msgstr ""
+#~ "By using filters, you may decide which items will be imported or excluded."
+#~ "<b>Note:</b> Each site also has a \"Global\" list of filters and its "
+#~ "settings will override these settings. <b>Note:</b> Keywords listed in "
+#~ "the \"Good\" Filter must be present in the update itself to be included "
+#~ "in the site import. Likewise, keywords listed in the \"Explicit Filter\" "
+#~ "will cause that particular update NOT to be imported."
+
+#~ msgid "Good Filter (separate words with commas)"
+#~ msgstr "Good Filter (separate words with commas)"
+
+#~ msgid "Bad Filter (separate words with commas)"
+#~ msgstr "Bad Filter (separate words with commas)"
+
+#~ msgid "Hide Rss items on the sitewide activity stream?"
+#~ msgstr "Hide Rss items on the sitewide activity stream?"

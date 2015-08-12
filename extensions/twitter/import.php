@@ -61,10 +61,7 @@
                                 if ($items && !$items->error) {
 
                                     //update the user screen_name
-                                    //$screenName = $items->status->user->screen_name[0];
-                                    $twitter_settings = $buddyStreamOAuth->oAuthRequest('https://api.twitter.com/1.1/account/settings.json');
-                                    $twitter_settings = json_decode($twitter_settings);
-                                    $screenName = $twitter_settings->screen_name;
+                                    $screenName = '' . $items->status->user->screen_name[0];
                                     update_user_meta($user_meta->user_id, 'tweetstream_screenname', $screenName);
 
                                     //go through tweets
@@ -107,9 +104,9 @@
                                                     'extension' => 'twitter',
                                                     'type' => 'tweet',
                                                     'content' => $content,
-                                                    'item_id' => buddystreamGetTweetId($tweet->id),
+                                                    'item_id' => $tweet->id,
                                                     'raw_date' => gmdate('Y-m-d H:i:s', strtotime($tweet->created_at)),
-                                                    'actionlink' => 'http://www.twitter.com/' . $screenName . '/status/' . buddystreamGetTweetId($tweet->id)
+                                                    'actionlink' => 'http://www.twitter.com/' . $screenName . '/status/' . $tweet->id
                                                 )
                                             );
 
