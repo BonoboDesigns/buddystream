@@ -35,7 +35,7 @@ function buddystream_init()
     define('BP_BUDDYSTREAM_IS_INSTALLED', 1);
     define('BP_BUDDYSTREAM_DIR', dirname(__FILE__));
     define('BP_BUDDYSTREAM_URL', plugin_dir_url(__FILE__));
-    define('BP_BUDDYSTREAM_IS_PREMIUM', 0);
+    define('BP_BUDDYSTREAM_IS_PREMIUM', 1);
 
     //first load translations
     buddyStreamLoadTranslations();
