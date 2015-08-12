@@ -1,0 +1,299 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyStream Tumblr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-28 23:58+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Peter Hofman <info@buddystream.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: /Users/peterhofman/projects/buddystream.net/wp-"
+"content/plugins/buddystream-dev/extensions/tumblr\n"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/core.php:11
+msgid "Also post this to my Tumblr blog(s)."
+msgstr "Also post this to my Tumblr blog(s)."
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/AdminFilters.php:24
+msgid "Filters saved."
+msgstr "Filters saved."
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/AdminFilters.php:29
+msgid "tumblr filters description"
+msgstr ""
+"Using Tumblr Filters will prevent overcrowded and \"messy\" activity "
+"streams. <br>Example: You may have a network that focuses on soccer.  To "
+"keep things \"clean\" you will only want Tweets that pertain to soccer to be "
+"imported. By adding the word \"soccer\" to the Filter below, only Tweets "
+"with the word \"soccer\" will be imported and shown in the users Tweets on "
+"your site.<br><br>By using commas as a delimiter, you may set-up multiple "
+"filters (No Filter = All Tweets).In addition, the \"Explicit Words\" filter, "
+"will block any Tweet that contains them regardless of the other filter."
+"<br><b>Note:</b> Keywords listed in the \"Good\" Filter must be present in "
+"the update itself to be included in the site import. Likewise, keywords "
+"listed in the \"Explicit Filter\" will cause that particular update NOT to "
+"be imported."
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/AdminFilters.php:43
+msgid "Tumblr filters (optional)"
+msgstr "Tumblr filters (optional)"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/AdminFilters.php:49
+msgid "Filters (comma seperated)"
+msgstr "Filters (comma seperated)"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/AdminFilters.php:55
+msgid "Explicit words (comma seperated)"
+msgstr "Explicit words (comma seperated)"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/AdminFilters.php:61
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/AdminSettings.php:95
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/AdminSettings.php:32
+msgid "Settings saved."
+msgstr "Settings saved."
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/AdminSettings.php:37
+msgid "tumblr settings description"
+msgstr ""
+"For BuddyStream to work you will need to get an Consumer key and Consumer "
+"secret from Tumblr.<br><br>1. Go to  <a href=\"http://www.tumblr.com/oauth/"
+"register\" target=\"_blank\">http://www.tumblr.com/oauth/register</a> and "
+"login with your Tumblr account.<br>2. Create a new application and set the "
+"\"Callback url\"</strong> to: <b>#ROOTDOMAIN</b><br>3. Copy the <strong>"
+"\"Consumer key\" </strong>and <strong>\"Consumer secret\"</strong> into the "
+"fields below.<br>"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/AdminSettings.php:50
+msgid "Tumblr API"
+msgstr "Tumblr API"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/AdminSettings.php:57
+msgid "API key:"
+msgstr "Cosnumer key"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/AdminSettings.php:63
+msgid "Api secret:"
+msgstr "Consumer secret"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/AdminSettings.php:76
+msgid "User options"
+msgstr "User options"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/AdminSettings.php:84
+msgid ""
+"Maximum Tumblr updates to be imported per user, per day (empty = unlimited "
+"tweets import):"
+msgstr ""
+"Maximum Tumblr updates to be imported per user, per day (empty = unlimited "
+"tweets import):"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/AdminStatitics.php:20
+msgid "tumblr statitics description"
+msgstr ""
+"Below you see a table with some nice to know statistics, i may help you to "
+"monitor you members social interaction."
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/AdminStatitics.php:27
+msgid "Statistics"
+msgstr "Statistics"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/AdminStatitics.php:48
+msgid "Amount of users:"
+msgstr "Amount of users:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/AdminStatitics.php:52
+msgid "Amount of user Tumblr intergration:"
+msgstr "Amount of user Tumblr intergration:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/AdminStatitics.php:56
+msgid "Percentage of users using intergration:"
+msgstr "Percentage of users using intergration:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/AdminStatitics.php:60
+msgid "Amount of activity updates:"
+msgstr "Amount of activity updates:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/AdminStatitics.php:64
+msgid "Amount of items updates:"
+msgstr "Amount of items updates:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/AdminStatitics.php:68
+msgid "Percentage of items in activity updates:"
+msgstr "Percentage of items in activity updates:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/AdminStatitics.php:72
+msgid "Average items import per day:"
+msgstr "Average items import per day:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/AdminStatitics.php:76
+msgid "Average items import per week:"
+msgstr "Average items import per week:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/AdminStatitics.php:80
+msgid "Average items import per month:"
+msgstr "Average items import per month:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/AdminStatitics.php:84
+msgid "Average items import per year:"
+msgstr "Average items import per year:"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/UserSettings.php:53
+msgid "Settings saved"
+msgstr "Settings saved"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/UserSettings.php:65
+msgid "Tumblr Settings"
+msgstr "Tumblr Settings"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/UserSettings.php:70
+msgid "There are no settings available.</br></br>"
+msgstr "There are no settings available.</br></br>"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/UserSettings.php:93
+msgid "Synchronize Tumblr updates to my activity stream?"
+msgstr "Synchronize Tumblr updates to my activity stream?"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/UserSettings.php:103
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/UserSettings.php:174
+msgid "Yes"
+msgstr "Yes"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/UserSettings.php:109
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/UserSettings.php:178
+msgid "No"
+msgstr "No"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/UserSettings.php:115
+msgid "When i share to tumblr, share to these blogs"
+msgstr "When i share to tumblr, share to these blogs"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/UserSettings.php:137
+msgid "Import blog items from these blogs"
+msgstr "Import blog items from these blogs"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/UserSettings.php:165
+msgid "Send achievements unlock to my LinkedIn"
+msgstr "Send achievements unlock to my Tumblr"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/UserSettings.php:190
+msgid "Save settings"
+msgstr "Save settings"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/UserSettings.php:194
+msgid "Remove Tumblr synchronization."
+msgstr "Remove Tumblr synchronization."
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/UserSettings.php:202
+msgid "Tumblr setup"
+msgstr "Tumblr setup"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/UserSettings.php:204
+msgid ""
+"You may setup you Tumblr intergration over here.<br/>\n"
+"                 Before you can begin using Tumblr with this site you must "
+"authorize on Tumblr by clicking the link below."
+msgstr ""
+"You may setup you Tumblr intergration over here.<br/>\n"
+"                 Before you can begin using Tumblr with this site you must "
+"authorize on Tumblr by clicking the link below."
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/UserSettings.php:229
+msgid "Click here to start authorization"
+msgstr "Click here to start authorization"
+
+#: /Users/peterhofman/projects/buddystream.net/wp-content/plugins/buddystream-dev/extensions/tumblr/templates/UserSettings.php:231
+msgid ""
+"There is a problem with the authentication service at this moment please "
+"come back in a while."
+msgstr ""
+"There is a problem with the authentication service at this moment please "
+"come back in a while."
+
+#~ msgid "Twitter API server offline at the moment."
+#~ msgstr "Twitter API server offline at the moment."
+
+#~ msgid "to twitter"
+#~ msgstr "to Twitter"
+
+#~ msgid ""
+#~ "You\\'ve reached the max. amount of characters for a Tweet.  The Message "
+#~ "will appear truncated on Twitter."
+#~ msgstr ""
+#~ "You\\'ve reached the max. amount of characters for a Tweet.  The Message "
+#~ "will appear truncated on Twitter."
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid ""
+#~ "\"User integration has been reset. Note: User will have to reconnect "
+#~ "their integration if desired.\""
+#~ msgstr ""
+#~ "\"User integration has been reset. Note: User will have to reconnect "
+#~ "their integration if desired.\""
+
+#~ msgid "Are you sure ?"
+#~ msgstr "Are you sure ?"
+
+#~ msgid "twitter users description"
+#~ msgstr ""
+#~ "Below is a list of all users whom are using Twitter. You may reset there "
+#~ "Twitter settings here. <br><b>Note:</b> When you reset a user they need "
+#~ "to re-authenticate with Twitter.Tweets already imported <b>WILL NOT</b> "
+#~ "be deleted!"
+
+#~ msgid "Username"
+#~ msgstr "Username"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Tweets imported"
+#~ msgstr "Tweets imported"
+
+#~ msgid "Reset user"
+#~ msgstr "Reset user"
+
+#~ msgid "Twitter Settings"
+#~ msgstr "Twitter Settings"
+
+#~ msgid "Filters"
+#~ msgstr "Filters"
+
+#~ msgid "Good Filter (separate words with commas)"
+#~ msgstr "Good Filter (separate words with commas)"
+
+#~ msgid "Bad Filter (separate words with commas)"
+#~ msgstr "Bad Filter (separate words with commas)"
+
+#~ msgid "Twitter API"
+#~ msgstr "Twitter API"
+
+#~ msgid "Consumer key:"
+#~ msgstr "Consumer key:"
+
+#~ msgid "Consumer secret key:"
+#~ msgstr "Consumer secret:"
+
+#~ msgid "Hide tweets on the sidewide activity stream?"
+#~ msgstr "Hide tweets on the sidewide activity stream?"
+
+#~ msgid "Allow users to sync Twitter to you website?"
+#~ msgstr "Allow users to sync Twitter to you website?"
+
+#~ msgid "Extra options"
+#~ msgstr "Extra options"
+
+#~ msgid "Show Twitter share button?"
+#~ msgstr "Show Twitter share button?"
+
+#~ msgid "Show counter?"
+#~ msgstr "Show counter?"
