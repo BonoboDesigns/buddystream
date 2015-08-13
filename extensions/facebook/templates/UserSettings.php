@@ -375,6 +375,6 @@ if (get_user_meta($bp->loggedin_user->id, 'facestream_session_key', 1) && ! get_
     _e('facebook user persmission description', 'buddystream_facebook');
     echo '<br/><br/>';
 
-    $redirectUrl = 'https://www.facebook.com/dialog/oauth?client_id=' . get_site_option("facestream_application_id") . '&redirect_uri=' . urlencode($bp->loggedin_user->domain . BP_SETTINGS_SLUG . '/buddystream-networks/?network=facebook') . '&scope=offline_access,publish_stream,friends_status,read_stream,manage_pages,user_photos';
+    $redirectUrl = 'https://www.facebook.com/dialog/oauth?client_id=' . get_site_option("facestream_application_id") . '&redirect_uri=' . urlencode($bp->loggedin_user->domain . BP_SETTINGS_SLUG . '/buddystream-networks/?network=facebook') . '&scope=publish_actions,user_posts,manage_pages,user_photos';
     echo '<a href="' . $redirectUrl . '" class="buddystream_authorize_button">' . __('Authorize with Facebook', 'buddystream_facebook') . '</a><br/><br/>';
 }
