@@ -41,7 +41,7 @@ if( ! is_admin()){
     wp_enqueue_script('buddystream');
 
     wp_register_script("googlemaps","https://maps.googleapis.com/maps/api/js?sensor=false");
-    wp_enqueue_script('googlemaps');
+    // wp_enqueue_script('googlemaps');
 
 }
 
