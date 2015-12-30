@@ -10,8 +10,8 @@ function buddystreamTwitterSharing()
         if (get_user_meta($bp->loggedin_user->id, 'tweetstream_token', 1)) {
 
 
-            if(get_user_meta($bp->loggedin_user->id, 'buddystream_linkedin_reauth', 1)){
-                echo '<a href="' . $bp->loggedin_user->domain . BP_SETTINGS_SLUG . '/buddystream-networks/?network=twitter"><span class="buddystream_share_button twitter" id="' . __('You need to re-authenticate on Facebook.', 'buddystream_twitter') . '"></span></a>';
+            if(get_user_meta($bp->loggedin_user->id, 'buddystream_twitter_reauth', 1)){
+                echo '<a href="' . $bp->loggedin_user->domain . BP_SETTINGS_SLUG . '/buddystream-networks/?network=twitter"><span class="buddystream_share_button twitter" id="' . __('You need to re-authenticate on Twitter.', 'buddystream_twitter') . '"></span></a>';
             }else{
                 echo'<span class="buddystream_share_button twitter" onclick="twitter_addTag()" id="' . __('Also post this to my Twitter account.', 'buddystream_twitter') . '"></span>';
             }

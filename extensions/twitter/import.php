@@ -107,7 +107,7 @@
                                             $content  = '';
                                             if(isset($tweet->entities->media)){
                                                 foreach($tweet->entities->media as $media){
-                                                    $content .= '<a href="' . urldecode($media->media_url) . '" rel="lightbox" class="bs_lightbox"><img src="' . $media->media_url . '"></a>';
+                                                    $content .= '<a href="' . urldecode($media->media_url) . '" rel="lightbox" class="thickbox"><img src="' . $media->media_url . '"></a>';
                                                 }
                                             }
 
@@ -119,7 +119,7 @@
                                                     'content' => $content,
                                                     'item_id' => buddystreamGetTweetId($tweet->id),
                                                     'raw_date' => gmdate('Y-m-d H:i:s', strtotime($tweet->created_at)),
-                                                    'actionlink' => 'http://www.twitter.com/' . $screenName . '/status/' . buddystreamGetTweetId($tweet->id)
+                                                    'actionlink' => 'https://www.twitter.com/' . $screenName . '/status/' . buddystreamGetTweetId($tweet->id)
                                                 )
                                             );
 
